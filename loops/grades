@@ -1,0 +1,6 @@
+#!/bin/bash
+for grades in class1 class2 class3
+do
+
+echo "students with $grades" > $grades
+done 
